@@ -18,7 +18,7 @@ class SubBot:
     bellButtonClick = "Bell[1].click();"    
 
     # channel url 
-    url = "https://www.youtube.com/mightyghosthack"
+    url = "https://youtube.com/channel/UCNQVG98AOFswEfw59NEiH4g"
     
     # store command code list in order to perform.
     listOfBrowser = ['start chrome '+url,'start firefox '+url]
