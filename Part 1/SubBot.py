@@ -107,10 +107,10 @@ class SubBot:
                     time.sleep(self.waitTime)
                   
                     # for quitting.
-                    pyautogui.hotkey('alt','f4')
+                    #pyautogui.hotkey('alt','f4')
                   
                     # extra enter option bcoz some browser show the confirm dialog box when there are more than one tab is open.
-                    pyautogui.press('enter')
+                    #pyautogui.press('enter')
 
                     # once all code works then simply set flag value to false so it will not loop again.
                     self.flag = False;
